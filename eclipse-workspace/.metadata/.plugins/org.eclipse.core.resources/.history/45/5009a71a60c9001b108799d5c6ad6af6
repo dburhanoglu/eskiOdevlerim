@@ -1,0 +1,15 @@
+package dersCalisma;
+
+public class Class2 {
+	int a;
+
+	public int getA() {
+		return a;
+	}
+
+	public void setA(int degmez) {
+		a=degmez;
+	
+	
+}
+}

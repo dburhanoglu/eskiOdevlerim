@@ -1,0 +1,42 @@
+package dersCalisma2;
+
+import java.io.IOException;
+
+public class trycatchdene {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Sinif nesne=new Sinif();
+		try {
+			nesne.fonksiyon();
+		}
+		catch(filanException ht){
+			System.out.println(ht.toString());
+		}
+
+
+ 		/*try {
+ 
+
+			int a = 3 - 3;
+			int b = 2 / a;
+			System.out.println("" + b);
+
+		}
+
+		catch (ArithmeticException e1) {
+			e1.getStackTrace();
+
+		} catch (RuntimeException e2)  {
+			System.err.print("heeyy");
+		}
+
+		finally {
+		}
+
+		
+*/
+	}
+}

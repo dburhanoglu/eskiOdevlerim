@@ -1,0 +1,19 @@
+package dersCalisma;
+
+
+
+public class Class2 extends Class1 {
+String ben="hjklp";
+	public Class2(int a) {
+		super(a);
+		// TODO Auto-generated constructor stub
+		
+	}
+public String toString() {
+ 
+
+
+return super.toString();
+}
+
+}

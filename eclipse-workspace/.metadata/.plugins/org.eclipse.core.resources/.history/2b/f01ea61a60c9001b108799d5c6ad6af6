@@ -1,0 +1,20 @@
+package dersCalisma;
+
+import java.util.Scanner;
+
+public class Test extends Class1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Class1 d1=new Class1();
+Scanner k1=new Scanner(System.in);
+int gir=k1.nextInt();
+d1.setA(gir);
+d1.getA();
+System.out.println(d1.getA());
+Class2 d2=new Class2();
+d2.setA(9);
+System.out.println(d2.getA());
+	}
+
+}

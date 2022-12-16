@@ -1,0 +1,7 @@
+package dersCalisma2;
+
+public class filanException extends Exception {
+String hataMetni="dfghjk"	;
+String hataTipi="hata tipim";
+public void 
+}

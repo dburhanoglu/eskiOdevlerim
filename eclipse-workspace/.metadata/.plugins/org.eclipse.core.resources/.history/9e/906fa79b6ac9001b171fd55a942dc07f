@@ -1,0 +1,28 @@
+package dersCalisma;
+
+
+
+public class Class2 extends Class1 {
+
+int b;
+
+public Class2(int b) {
+	super(b);
+	this.b = b+a;
+}
+
+public int getB() {
+	return b;
+}
+
+public void setB(int b) {
+	this.b = b+a;
+}
+
+
+
+
+
+	
+
+}

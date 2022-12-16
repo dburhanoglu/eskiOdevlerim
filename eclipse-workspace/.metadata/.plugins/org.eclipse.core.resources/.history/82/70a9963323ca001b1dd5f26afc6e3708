@@ -1,0 +1,22 @@
+package dersCalisma;
+
+public class Class1 {
+protected int a;
+public Class1(int a) {
+this.a=a;
+String b="ela";
+
+}
+public int getA() {
+	return a;
+}
+public void setA(int a) {
+	this.a = a;
+}
+@Override
+public String toString() {
+	return "Class1 [a=" + a + "]";
+}
+
+	
+}

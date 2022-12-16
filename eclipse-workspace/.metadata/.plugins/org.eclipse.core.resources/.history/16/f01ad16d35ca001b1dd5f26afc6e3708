@@ -1,0 +1,48 @@
+package dersCalisma2;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.ListIterator;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList a1=new ArrayList();
+a1.add(12);
+a1.add("df");
+a1.add("jklþ");
+Iterator itr=a1.iterator();
+
+while (itr.hasNext()) {
+	 Object element = itr.next();
+	 System.out.print(element + " ");
+	 } System.out.println();
+	 // Deðiþmiþ listeyi tarýyor
+	 ListIterator litr = a1.listIterator();
+	 while (litr.hasNext()) {
+	 Object element = litr.next();
+	 litr.set(element + "#");
+	 }
+	 System.out.print("Deðiþtirilmiþ Listenin öðeleri : ");
+	 itr = a1.iterator();
+	 while (itr.hasNext()) {
+	 Object element = itr.next();
+	 System.out.print(element + " ");
+	 }
+	 System.out.println();
+	 // ArrayListi ters sýrada yaz
+	
+	 System.out.print("Deðiþtirilen Listenin ters sýrasý: ");
+	 while (litr.hasPrevious()) {
+	 Object element = litr.previous();
+	 System.out.print(element + " ");
+	 }
+	 System.out.println();
+	 }
+
+	}
+
+
+
+

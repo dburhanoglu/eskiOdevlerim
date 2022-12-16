@@ -1,0 +1,4 @@
+turkiyenin baskenti neresidir?;
+a)ankara b)istanbul; c)denizli d)kutahya
+hello in turkish?
+a)mehaba b)sela c)yesil d)kafa
