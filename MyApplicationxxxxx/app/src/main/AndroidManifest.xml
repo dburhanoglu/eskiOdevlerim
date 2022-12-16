@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emin.derya.sumeyye">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.emin.derya.sumeyye.UpdateActivity"
+            android:parentActivityName="com.emin.derya.sumeyye.MainActivity"/>
+        <activity
+            android:name="com.emin.derya.sumeyye.AddActivity"
+            android:label="Add Book"
+            android:parentActivityName="com.emin.derya.sumeyye.MainActivity" />
+        <activity
+            android:name="com.emin.derya.sumeyye.MainActivity"
+            android:label="Book Library">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

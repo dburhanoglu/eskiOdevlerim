@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "902392881829",
+    "project_id": "odevveritabani1",
+    "storage_bucket": "odevveritabani1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902392881829:android:12c980fee6c0dee054234c",
+        "android_client_info": {
+          "package_name": "com.example.deneme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902392881829-c6lnsqfuicq50fh0imtqpqjov4epjlr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY-yK5ZD4ybQsNqDlUxfxO7MACU2TllTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902392881829-c6lnsqfuicq50fh0imtqpqjov4epjlr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

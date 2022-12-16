@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dpüm2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/kullaniciAdi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="kullanici adi"
+        android:textColorHint="#0E0E0E" />
+
+    <EditText
+        android:id="@+id/sifreKismi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kullaniciAdi1"
+        android:layout_marginTop="77dp"
+        android:hint="şifre giriniz"
+        android:textColorHint="#100F0F" />
+
+    <Button
+        android:id="@+id/girisYapbuton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sifreKismi1"
+        android:layout_marginTop="68dp"
+        android:text="giriş yap" />
+</RelativeLayout>

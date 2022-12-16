@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    <Button
+        android:id="@+id/buton"
+        android:layout_width="match_parent"
+
+        android:layout_height="120dp"
+        android:background="#737F81"
+        android:backgroundTint="#FFFFFF"
+
+        android:backgroundTintMode="add"
+        android:text="test butoun"
+        android:textcolor="#FFEB3B"
+        android:textsize="30sp"></Button>
+
+    <TextView
+        android:layout_width="296dp"
+        android:layout_height="156dp"
+        android:layout_gravity="center"
+        android:text="textwieeeec"
+        android:textSize="30dp" />
+    "
+
+        ></TextView>
+
+</LinearLayout>

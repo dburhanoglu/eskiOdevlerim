@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dpüm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/kullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="kullanıcı adini giriniz" />
+
+    <EditText
+        android:id="@+id/sifreKismi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kullaniciAdi"
+        android:layout_marginTop="50dp"
+        android:hint="sifre giriniz" />
+
+    <EditText
+        android:id="@+id/sifreTekrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sifreKismi"
+        android:layout_marginTop="50dp"
+        android:hint="sifreyi tekrar giriniz" />
+
+    <Button
+        android:id="@+id/kayitOlbuton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sifreTekrar"
+        android:layout_marginTop="50dp"
+        android:text="kayıt ol" />
+
+    <Button
+        android:id="@+id/girisYapbuton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="giriş sayfasına gidin"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/kayitOlbuton"/>
+
+</RelativeLayout>

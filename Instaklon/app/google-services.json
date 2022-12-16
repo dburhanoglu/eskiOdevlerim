@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "558496542818",
+    "project_id": "instaklon-b5c9b",
+    "storage_bucket": "instaklon-b5c9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558496542818:android:a3c45a53b219f584d8a13b",
+        "android_client_info": {
+          "package_name": "com.example.instaklon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558496542818-06nsnhs6o7gb93jul0fnl87pdss1vrmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCn8N7H5pteV1z69Uun5DJW_r9FTPlfLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558496542818-06nsnhs6o7gb93jul0fnl87pdss1vrmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
